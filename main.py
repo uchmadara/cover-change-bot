@@ -49,7 +49,7 @@ async def thumb_change(client, m):
     )
     await msg.delete()
 
-    prompt = "Now send the thumbnail" + (" or /keep to keep the previous thumb" if thumb else "")
+    prompt = "Now send me the thumbnail" + (" or use /keep to keep the previous thumb" if thumb else "")
     answer = await client.ask(m.chat.id, prompt, filters=filters.photo | filters.text)
 
     if answer is None:
