@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Configure these via environment variables or directly (not recommended to hardcode tokens)
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8152339674:AAEsQLhWJz63kwN4vzEM3pYarufJ26Tymm0")
-API_ID = os.getenv("API_ID", "19792383")
-API_HASH = os.getenv("API_HASH", "7eb1a206a5ab7f8bfc9a9ca9a73d4995")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = os.getenv("API_ID", "")
+API_HASH = os.getenv("API_HASH", "")
 
 Bot = Client(
     "Thumb-Bot",
