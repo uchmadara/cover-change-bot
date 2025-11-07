@@ -22,7 +22,7 @@ START_TXT = (
 )
 
 START_BTN = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("Source Code", url="https://github.com/soebb/thumb-change-bot")]]
+    [[InlineKeyboardButton("Source Code", url="https://github.com/uchmadara/cover-change-bot")]]
 )
 
 
